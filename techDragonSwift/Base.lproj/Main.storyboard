@@ -60,16 +60,22 @@
                                 </constraints>
                                 <state key="normal" image="button_sozai.png"/>
                                 <connections>
-                                    <action selector="attackPowerBT" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XCf-SO-Cwu"/>
+                                    <action selector="rasePowerBT" destination="vXZ-lx-hvc" eventType="touchUpInside" id="z9M-kY-0ND"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZXN-Xq-ayW">
                                 <rect key="frame" x="10" y="370" width="300" height="80"/>
                                 <state key="normal" image="button_sozai.png"/>
+                                <connections>
+                                    <action selector="attack" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HTU-eM-ofP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hyR-I1-MvL">
                                 <rect key="frame" x="10" y="464" width="300" height="80"/>
                                 <state key="normal" image="button_sozai.png"/>
+                                <connections>
+                                    <action selector="reset" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IYK-f8-6Zt"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raise the power" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQq-DT-pFf">
                                 <rect key="frame" x="68" y="300" width="184" height="31.5"/>
@@ -137,6 +143,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="attackLabel" destination="XUI-1X-2mo" id="kEd-EL-PIe"/>
+                        <outlet property="dragonImage" destination="CJH-zy-Q16" id="3Zo-K5-LGv"/>
                         <outlet property="hpLabel" destination="Va6-KQ-rqv" id="41u-qA-W7M"/>
                     </connections>
                 </viewController>
