@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var hpLabel : UILabel!
+    @IBOutlet var hpBar : UIProgressView!
     @IBOutlet var attackLabel : UILabel!
     @IBOutlet var dragonImage : UIImageView!
     var hpPoint : Int = 100
@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        hpBar.progress = 1.0
     }
 
     override func didReceiveMemoryWarning() {
@@ -59,7 +60,9 @@ class ViewController: UIViewController {
         }else{
             [self .dragonAnimation()]
         }
-        hpLabel.text = "\(hpPoint)"
+        var hpValue : Float!
+        hpValue = Float(hpPoint)
+        hpBar.progress = hpValue / 100
     }
     
     func dragonAnimation(){
@@ -79,8 +82,8 @@ class ViewController: UIViewController {
     
     @IBAction func reset(){
         hpPoint = 100
+        hpBar.progress = 1.0
         attackPower = 0
-        hpLabel.text = "\(hpPoint)"
         attackLabel.text = "\(attackPower)"
         attackLabel.textColor = UIColor.whiteColor()
         self.dragonImage.alpha = 1.0
