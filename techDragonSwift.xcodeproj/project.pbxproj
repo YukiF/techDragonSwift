@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		987F773D1AA7B37900007873 /* ExplainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987F773C1AA7B37900007873 /* ExplainViewController.swift */; };
 		98AE25921AA6BDBD00E1050A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE25911AA6BDBD00E1050A /* AppDelegate.swift */; };
 		98AE25951AA6BDBD00E1050A /* techDragonSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98AE25931AA6BDBD00E1050A /* techDragonSwift.xcdatamodeld */; };
 		98AE25971AA6BDBD00E1050A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE25961AA6BDBD00E1050A /* ViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		987F773C1AA7B37900007873 /* ExplainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplainViewController.swift; sourceTree = "<group>"; };
 		98AE258C1AA6BDBD00E1050A /* techDragonSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techDragonSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AE25901AA6BDBD00E1050A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98AE25911AA6BDBD00E1050A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				98AE25911AA6BDBD00E1050A /* AppDelegate.swift */,
 				98AE25961AA6BDBD00E1050A /* ViewController.swift */,
+				987F773C1AA7B37900007873 /* ExplainViewController.swift */,
 				98AE25981AA6BDBD00E1050A /* Main.storyboard */,
 				98AE259B1AA6BDBD00E1050A /* Images.xcassets */,
 				98AE259D1AA6BDBD00E1050A /* LaunchScreen.xib */,
@@ -245,6 +248,7 @@
 			files = (
 				98AE25971AA6BDBD00E1050A /* ViewController.swift in Sources */,
 				98AE25951AA6BDBD00E1050A /* techDragonSwift.xcdatamodeld in Sources */,
+				987F773D1AA7B37900007873 /* ExplainViewController.swift in Sources */,
 				98AE25921AA6BDBD00E1050A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 				98AE25B01AA6BDBD00E1050A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98AE25B11AA6BDBD00E1050A /* Build configuration list for PBXNativeTarget "techDragonSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				98AE25B31AA6BDBD00E1050A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
